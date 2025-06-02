@@ -1,20 +1,13 @@
 # Praktek Menggunakan Arduino
 
 ##  iMcLab.ino
-Sketch Arduino ini mendemonstrasikan dasar-dasar pengendalian arah dan kecepatan motor DC menggunakan PWM. 
-Motor akan bergerak maju dan mundur secara bergantian dengan kecepatan penuh, berhenti di antaranya, dan meningkatkan kecepatan secara bertahap dalam kondisi tertentu.
+Sketch Arduino ini menunjukkan konsep dasar dalam mengontrol arah dan kecepatan motor DC menggunakan sinyal PWM. Motor akan bergerak maju dan mundur secara bergantian pada kecepatan maksimum, berhenti di antara perpindahan, serta melakukan akselerasi secara bertahap dalam kondisi tertentu.
 
 ## itclab-07.ino
-Firmware Arduino ini digunakan untuk mengendalikan iTCLab Shield melalui perintah serial. 
-Pengguna dapat mengatur output PWM untuk dua saluran (Q1 dan Q2) serta LED, dan membaca suhu dari dua sensor (T1 dan T2). 
-Perintah dikirim melalui antarmuka serial dan sistem merespons dengan mengatur output atau mengirim data suhu. 
-Termasuk logika keamanan yang akan mematikan output secara otomatis jika suhu sensor melebihi batas tertentu, serta mendukung perintah versi dan stop.
+Firmware ini memungkinkan kontrol iTCLab Shield melalui perintah yang dikirim lewat koneksi serial. Pengguna dapat mengatur keluaran PWM untuk dua kanal (Q1 dan Q2) serta LED, dan juga memantau suhu dari dua sensor (T1 dan T2). Perintah dikomunikasikan melalui antarmuka serial, dan sistem akan menanggapi dengan menyesuaikan output atau mengirimkan data suhu. Terdapat juga fitur keamanan otomatis yang mematikan output jika suhu melampaui ambang tertentu, serta dukungan untuk perintah versi dan penghentian.
 
 ## pid.py
-File Python ini mendefinisikan kelas iTCLab untuk mengelola komunikasi serial dengan perangkat Arduino dalam eksperimen kontrol suhu dan akuisisi data. 
-Mendukung pembacaan suhu (T1 dan T2), pengendalian output (heater dan LED melalui PWM), penyimpanan data ke file teks, serta penanganan koneksi secara otomatis dengan deteksi port. 
-Dirancang untuk digunakan dalam eksperimen robotika dan kontrol proses, menggunakan library pyserial dan numpy.
-
+Skrip Python ini mendefinisikan kelas iTCLab untuk menangani komunikasi serial antara komputer dan Arduino dalam eksperimen pengendalian suhu dan pencatatan data. Fungsinya mencakup pembacaan suhu (T1 dan T2), kontrol output (pemanas dan LED dengan PWM), penyimpanan data ke file teks, dan pendeteksian port otomatis. Skrip ini ditujukan untuk eksperimen dalam bidang robotika dan kontrol proses, menggunakan pustaka pyserial dan numpy.
 
 ## MQTT-Based Temperature Control Sketch
-Sketch ini dirancang untuk sistem pengendalian suhu dengan kemampuan pemantauan dan pengendalian jarak jauh berbasis MQTT.
+Sketch ini dikembangkan untuk sistem pengendalian suhu yang mendukung pemantauan dan kontrol dari jarak jauh menggunakan protokol MQTT.
