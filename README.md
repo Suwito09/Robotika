@@ -19,36 +19,6 @@ Dirancang untuk digunakan dalam eksperimen robotika dan kontrol proses, mengguna
 ## MQTT-Based Temperature Control Sketch
 Sketch ini dirancang untuk sistem pengendalian suhu dengan kemampuan pemantauan dan pengendalian jarak jauh berbasis MQTT.
 
-# Ringkasan Pertemuan
-
-## Pertemuan 1
-### Pengantar Mata Kuliah Robotik
-Di pertemuan perdana, kami mengikuti sesi perkenalan dengan dosen pengampu, Bapak Basuki Rahmat. Selanjutnya diperkenalkan gambaran umum bidang robotik, termasuk skema perkuliahan, ketentuan tugas UTS, serta rencana pelaksanaan UAS yang akan ditempuh sepanjang mata kuliah ini.
-
-## Pertemuan 2
-### Instalasi dan Persiapan Arduino IDE
-Pada pertemuan kedua, fokus belajar beralih pada pemasangan Arduino IDE sebagai software utama untuk pemrograman mikrokontroler. Kami juga mempelajari cara menambahkan library–library penting dan melakukan konfigurasi dasar yang dibutuhkan pada IDE.
-
-## Pertemuan 3
-###Praktik Awal Arduino IDE dengan ITCLab
-Di pertemuan ketiga, kami langsung mencoba menjalankan kode contoh dari Pak Basuki. Program tersebut mengendalikan mesin ITCLab untuk memutar “gerigi” dengan kecepatan yang dipercepat, lalu diperlambat hingga berhenti. Kegiatan ini memperkenalkan dasar pengaturan kecepatan motor melalui pemrograman.
-
-## Pertemuan 4
-### Mengoperasikan LED menggunakan Arduino IDE dan ITCLab
-Pada pertemuan keempat, kami praktik menyalakan dan mematikan LED dengan kode yang tersedia. Materi utamanya adalah memahami penggunaan pin digital pada Arduino dan proses upload program ke board lewat ITCLab.
-
-## Pertemuan 5
-### Kontrol Motor dengan IMCLab
-Pembelajaran dilanjutkan dengan praktik kendali motor melalui IMCLab. Kami mendalami penggunaan pin PWM serta prinsip dasar menggerakkan motor dengan mikrokontroler menggunakan Arduino IDE.
-
-## Pertemuan 6
-### Pengenalan IoT dan Aplikasi MQTT Panel
-Materi pada pertemuan keenam beralih ke konsep Internet of Things (IoT). Kami diminta memasang aplikasi MQTT Panel di smartphone, kemudian belajar menghubungkan Arduino IDE dengan protokol MQTT via library PubSubClient. Untuk medium jaringan, digunakan hotspot smartphone dengan memasukkan SSID dan kata sandi ke dalam kode.
-
-## Pertemuan 7
-### Praktik Kontrol Robot BNU V2 via IoT MQTT Panel
-Di pertemuan ketujuh, kami mengendalikan robot BNU V2 secara langsung melalui aplikasi MQTT Panel. Perintah dikirim lewat protokol MQTT dan diinterpretasikan menjadi aksi nyata pada robot, sehingga kami memperoleh pengalaman praktis komunikasi IoT dengan robotika.
-
 # 🧠 Final Project
 
 ## 👥 Kelompok Peneliti
