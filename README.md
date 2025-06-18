@@ -1,23 +1,36 @@
-# Praktek Menggunakan Arduino
+# 🤖 Robotika Learning Repository - Kegiatan Perkuliahan
 
-##  iMcLab.ino
-Sketch Arduino ini mendemonstrasikan dasar-dasar pengendalian arah dan kecepatan motor DC menggunakan PWM. 
-Motor akan bergerak maju dan mundur secara bergantian dengan kecepatan penuh, berhenti di antaranya, dan meningkatkan kecepatan secara bertahap dalam kondisi tertentu.
+Selamat datang di repositori ini! Repository ini dibuat sebagai dokumentasi dan penyimpanan progres belajar penulis dalam bidang **ROBOTIKA**, baik dalam bentuk source code, catatan eksperimen.
 
-## itclab-07.ino
-Firmware Arduino ini digunakan untuk mengendalikan iTCLab Shield melalui perintah serial. 
-Pengguna dapat mengatur output PWM untuk dua saluran (Q1 dan Q2) serta LED, dan membaca suhu dari dua sensor (T1 dan T2). 
-Perintah dikirim melalui antarmuka serial dan sistem merespons dengan mengatur output atau mengirim data suhu. 
-Termasuk logika keamanan yang akan mematikan output secara otomatis jika suhu sensor melebihi batas tertentu, serta mendukung perintah versi dan stop.
+## Pertemuan Pertama
+[Perkenalan Mata Kuliah Robotik]
+Pada pertemuan pertama mata kuliah robotik, seperti kegiatan awal pertemuan seperti umumnya yakni berkenalan. Mulai dari berkenalan dengan dosen pengampu, yakni Pak Basuki, kemudian dilanjut dengan berkenalan atau meraba sedikit tentang robotik. Pada tahap ini, kami menerima penjelasan mengenai apa saja yang akan dilakukan pada mata kuliah robotik ini, seperti bagaimana skema pembelajarannya, pengerjaan UTS, hingga pengerjaan UAS.
 
-## pid.py
-File Python ini mendefinisikan kelas iTCLab untuk mengelola komunikasi serial dengan perangkat Arduino dalam eksperimen kontrol suhu dan akuisisi data. 
-Mendukung pembacaan suhu (T1 dan T2), pengendalian output (heater dan LED melalui PWM), penyimpanan data ke file teks, serta penanganan koneksi secara otomatis dengan deteksi port. 
-Dirancang untuk digunakan dalam eksperimen robotika dan kontrol proses, menggunakan library pyserial dan numpy.
+## Pertemuan Kedua
+[Instalasi Arduino IDE]
+Pada pertemuan kedua mata kuliah robotik, kegiatan pembelajaran difokuskan pada pengenalan dan instalasi Arduino IDE sebagai platform utama dalam pemrograman mikrokontroler. Selain itu, kami juga mempelajari bagaimana cara melakukan instalasi beberapa library penting yang akan digunakan dalam pengerjaan project pada mata kuliah robotik, serta bagaimana konfigurasi beberapa setup yang diperlukan.
 
+## Pertemuan Ketiga
+[Praktik Arduino IDE dengan ITCLab]
+Pada pertemuan keempat mata kuliah robotik, diisi dengan praktik langsung menggunakan ITCLab, Disini kami mencoba untuk melakukan running program yang telah disediakan untuk menghidupkan dan mematikan LED. Pertemuan ini berfokus pada pemahaman konsep dasar pin digital pada Arduino IDE serta proses upload program ke board melalui ITCLab.
 
-## MQTT-Based Temperature Control Sketch
-Sketch ini dirancang untuk sistem pengendalian suhu dengan kemampuan pemantauan dan pengendalian jarak jauh berbasis MQTT.
+## Pertemuan Keempat
+[Praktik Arduino IDE Dengan IMCLab]
+Pada pertemuan ketiga mata kuliah robotik, kami mencoba melakukan running program yang disediakan oleh Pak Basuki, yakni menghidupkan mesin pada ITCLab, yang di mana mesin tersebut nanti akan diaktifkan, ketika sudah aktif, mesin tersebut akan memutar "gerigi" yang telah dikonfigurasi dari cepat ke lambat. Jadi ketika awal dinyalakan, "gerigi" tersebut akan berputar secara cepat, kemudian semakin melambat, dan berhenti.
+
+## Pertemuan Kelima
+[Kontrol Motor Dengan IMCLab]
+Pada pertemuan kelima mata kuliah robotik, pembelajaran lanjut menggunakan IMCLab. Disini, kami mencoba mengendalikan motor dengan konfigurasi perintah dari Arduino IDE. Praktik pada pertemuan ini bertujuan untuk mengenal bagaimana penggunaan pin PWM dan dasar-dasar kendali penggerak melalui mikrokontroler.
+
+## Pertemuan Keenam
+[Pengenalan IoT dan MQTT Panel]
+Pada pertemuan keenam mata kuliah robotik, pembelajaran masuk ke konsep Internet of Things (IoT), disini kami diarahkan untuk menginstal aplikasi IoT MQTT Panel di handphone. Kemudian, kami belajar menghubungkan Arduino IDE ke MQTT dengan bantuan library PubSubClient, sehingga Arduino IDE dapat berkomunikasi melalui jaringan internet. Dalam konfigurasinya, diperlukan sebuah hotspot dari handphone, kemudian memasukkan value nama hotspot beserta passwordnya pada sebuah kode dalam Arduino IDE.
+
+## Pertemuan Ketujuh
+[Praktik Kontrol Robot BNU V2 Via IoT MQTT Panel]
+Pada pertemuan ketujuh mata kuliah robotik, kami mencoba mengendalikan robot BNU V2 dengan menggunakan aplikasi IoT MQTT Panel. Disini, kami mengirimkan sebuah perintah melalui MQTT Panel yang diterjemahkan menjadi aksi pada robot secara real-time. Praktik ini bertujuan untuk memahami penerapan praktis tentang komunikasi IoT menggunakan protokol MQTT.
+
+---
 
 # 🧠 Final Project
 
